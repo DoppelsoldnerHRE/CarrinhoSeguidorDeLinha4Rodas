@@ -19,6 +19,8 @@
 - 20 Jumpers macho-fêmea  
 - 6 Jumpers macho-macho  
 
+
+![Componentes utilizados](imagens/Componentes.jpeg)
 ---
 
 # Processo de Montagem
@@ -29,14 +31,21 @@
    - Cole os 4 apoiadores internos para melhorar a fixação dos motores.  
    - Os motores devem ser posicionados virados um para o outro para funcionarem corretamente.
 
+![Fixadores](imagens/Fixadores.jpeg)
+![Motores fixados](imagens/MotoresFixados.jpeg)
+
 2. **Fixação das Pontes H:**
    - Após os motores estarem fixados, cole as Pontes H nas extremidades do carrinho com cola quente.  
    - Conecte os motores às saídas das Pontes H.
+     
+![Ponte H](imagens/ParteDeBaixo.jpeg)
 
 3. **Conexão das Pilhas:**
    - Utilize quatro pilhas li-ion em dois casings conectados em paralelo, aumentando a capacidade de uso.  
    - A saída positiva dos casings deve passar por um switch, que será conectado às entradas positivas das duas Pontes H.  
    - A parte negativa dos casings vai diretamente para a entrada negativa das Pontes H.  
+
+![Fonte de energia](imagens/SwitchParaFazer.jpeg)
 
    > **Nota:** Pode ser necessário expandir um dos furos para encaixar o switch.
 
@@ -46,26 +55,34 @@
    - A Ponte H mais próxima da protoboard deve ter um jumper da saída de 5V conectado à protoboard.  
    - Isso servirá como alimentação tanto para o Arduino quanto para os sensores.
 
+![Conexão dos fios](imagens/FiosDeEnergiaConectados.jpeg)
+
 5. **Montagem Superior:**
    - Passe os fios de energia para a parte superior do carrinho.  
    - Fixe os espaçadores com parafusos na parte de cima.  
-   
+
+![Fios na placa superior](imagens/FiosNaParteSuperior.jpeg)
+
    > **Nota:** Os parafusos podem afrouxar com o uso, sendo necessário reapertá-los periodicamente.
 
-6. **Fixação dos Componentes Superiores:**
+5. **Fixação dos Componentes Superiores:**
    - Cole os componentes da parte superior com cola quente.  
    - Conecte os fios conforme descrito:
      - Entradas `EnA` e `EnB` das Pontes H vão nas portas digitais com símbolo PWM do Arduino (pinos 13 a 2).
      - Os fios da entrada negativa da Ponte H vão para o negativo da protoboard.
      - O fio da saída de 5V da Ponte H vai para o positivo da protoboard.
 
-7. **Instalação das Rodas e Sensores:**
+![Parte Superior do carrinho](imagens/ChassisSemRodas.jpeg)
+
+6. **Instalação das Rodas e Sensores:**
    - Coloque as rodas nos motores.  
    - Cole os sensores infravermelho na parte frontal do carrinho.  
    - Conecte:
      - Fios negativos dos sensores ao negativo da protoboard  
      - Fios positivos ao positivo da protoboard  
      - Fios `OUT` nas portas digitais do Arduino para facilitar a programação.
+
+![Carrinho Completo](imagens/CarrinhoPronto.jpeg)
 
 ---
 
